@@ -154,6 +154,10 @@
             footer.appendChild(secoes);
             document.body.appendChild(footer);
         }
+        // Servir arquivos estáticos de todas as pastas necessárias
+app.use(express.static(path.join(__dirname, '../public')));
+app.use('/assets', express.static(path.join(__dirname, '../public/assets')));
+app.use('/HTML', express.static(path.join(__dirname, '../public/html')));
     </script>
 </body>
 </html>
