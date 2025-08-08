@@ -1,0 +1,9 @@
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inika', sans-serif;
+}
